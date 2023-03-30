@@ -59,4 +59,28 @@ body{
     font-size: 10px;
 }
 
+.audio-button{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 32rem;
+}
+
+#button{
+    background-color: #000000;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #000000b3;
+    color: #ffffff;
+    font-family: 'Opens Sans' sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+#button:hover{
+    background-color: #202020;
+}
+
 
